@@ -1,0 +1,5 @@
+Saturation Point: y = 5.8142006096757628     
+Saturation Point: y = 7.8537394807026280     
+Saturation Point: y = 10.985133777951857     
+Saturation Point: y = 14.991295093982066     
+Saturation Point: y = 20.727978220839987     
