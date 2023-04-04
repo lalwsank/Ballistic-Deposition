@@ -1,0 +1,8 @@
+set terminal gif animate delay 4
+set output "test.gif"
+set title "Ballistic Deposition Simulation"
+set xlabel "Length"
+set ylabel "Height"
+set xrange [-50:150]
+set yrange [0:250]
+do for [i = 0:100] { plot "animate.dat" index i title "" with points pt 5 ps 0.4 }

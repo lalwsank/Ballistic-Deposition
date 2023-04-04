@@ -1,0 +1,6 @@
+set grid
+set xrange [-50:150] 
+set title "Ballistic Deposition with L = 100 and Height(50) = 100"
+set ylabel "Height"
+set xlabel "Length"
+plot "final.dat" title '' with points pt 5 ps 0.5
