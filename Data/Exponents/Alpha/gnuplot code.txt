@@ -9,4 +9,4 @@ set yrange[5:21]
 set key right bottom box
 set key height 1
 set key width 2
-plot f(x) title "y = 0.6196 * x^{0.2896} " dt 3 lc 8, "data.dat" title "data" lc 1 pt 6
+plot f(x) title "W_{sat} = 0.6196 * L^{0.4601} " dt 3 lc 8, "data.dat" title "data" lc 1 pt 6
