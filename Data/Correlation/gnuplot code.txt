@@ -1,4 +1,3 @@
-cd 'D:\Fortran\Ballistic-Deposition\Correlation'
 set title "Correlation Between Exponants"
 set xlabel "t/L^{z}"
 set ylabel "w(L,t)/L^{alpha}"
@@ -10,4 +9,4 @@ set logscale xy
 set label "0.6237" at 0.00001,0.7
 f(x) = 1.7306*(x**0.2896)
 set format x '10^{%L}'
-plot f(x) title "y = 1.7306 * x^{0.2896} " dt 2 lc 8, "128.dat" title "L=128" w lines lc 1, "256.dat" title "L=256" w lines lc 2, "512.dat"  title "L=512" w lines lc 3, "1024.dat" title "L=1024" w lines lc 6, "2048.dat" title "L=2048" w lines lc 7, 0.6237 notitle dt 2 lc 8
+plot f(x) title "W(L,t) = 1.7306 * t^{0.2896}" dt 2 lc 8, "128.dat" title "L=128" w lines lc 1, "256.dat" title "L=256" w lines lc 2, "512.dat"  title "L=512" w lines lc 3, "1024.dat" title "L=1024" w lines lc 6, "2048.dat" title "L=2048" w lines lc 7, 0.6237 notitle dt 2 lc 8
