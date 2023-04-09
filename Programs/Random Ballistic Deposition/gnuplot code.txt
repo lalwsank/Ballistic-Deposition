@@ -1,0 +1,6 @@
+set xrange [-50:150] 
+set title "Ballistic Deposition with L = 100"
+set ylabel "Height"
+set xlabel "Length"
+set label "Each colour represents consecutive 10 cycles" at 15,230
+plot "final.dat" index 0 title '' with points pt 5 ps 0.5, "" index 1 title '' with points pt 5 ps 0.5 lc 1, "" index 2 title '' with points pt 5 ps 0.5 lc 2, "" index 3 title '' with points pt 5 ps 0.5 lc 3, "" index 4 title '' with points pt 5 ps 0.5 lc 4, "" index 5 title '' with points pt 5 ps 0.5 lc 5, "" index 6 title '' with points pt 5 ps 0.5 lc 6, "" index 7 title '' with points pt 5 ps 0.5 lc 7, "" index 8 title '' with points pt 5 ps 0.5 lc 8, "" index 9 title '' with points pt 5 ps 0.5 lc 9

@@ -1,0 +1,7 @@
+set size square
+set xrange [0:1000]
+set yrange [0:2000] 
+set title "Ballistic Deposition with L = 1000 [Alternative colour represents consecutive 100 cycles]"
+set ylabel "Height"
+set xlabel "Length"
+plot "final_layer.dat" index 0 title '' with points pt 7 ps 0.3 lc rgb '#4d4d4d', "" index 1 title '' with points pt 7 ps 0.3 lc rgb '#7f7f7f', "" index 2 title '' with points pt 7 ps 0.3 lc rgb '#4d4d4d', "" index 3 title '' with points pt 7 ps 0.3 lc rgb '#7f7f7f', "" index 4 title '' with points pt 7 ps 0.3 lc rgb '#4d4d4d', "" index 5 title '' with points pt 7 ps 0.3 lc rgb '#7f7f7f', "" index 6 title '' with points pt 7 ps 0.3 lc rgb '#4d4d4d', "" index 7 title '' with points pt 7 ps 0.3 lc rgb '#7f7f7f',  "" index 8 title '' with points pt 7 ps 0.3 lc rgb '#4d4d4d', "" index 9 title '' with points pt 7 ps 0.3 lc rgb '#7f7f7f'
