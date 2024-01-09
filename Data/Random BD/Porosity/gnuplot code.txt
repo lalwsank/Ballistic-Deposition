@@ -1,7 +1,0 @@
-set logscale x
-set title "Porosity v/s Time"
-set ylabel "Porosity"
-set xlabel "t"
-set yrange [0:1]
-set format x '10^{%L}'
-plot "128.dat" title "L=128" w lines, "256.dat" title "L=256" w lines, "512.dat" title "L=512" w lines, "1024.dat" title "L=1024" w lines, "2048.dat" title "L=2048" w lines, 3.25139685070811936E-002 title "p = 0.03251"
